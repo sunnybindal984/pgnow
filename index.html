@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PG Now</title>
+
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    /> <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.webp">
+   
+ 
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ 
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+      <div class="logo">
+        <img src="./assets/logo.webp" width="100%" height="100%" alt="" />
+      </div>
+      <div class="flex flex-col gap-2 justify-end">
+        <div class="top_head text-end">
+          <ul class="flex gap-3">
+            <li class="flex items-center gap-2 justify-end">
+              <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon lucide-phone-call"><path d="M13 2a9 9 0 0 1 9 9"/><path d="M13 6a5 5 0 0 1 5 5"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+              <a href="tel:+918130238788" target="_blank">+91-8130238788</a>
+            </li>
+            <li class="flex items-center gap-2 justify-end">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:info@pgnow.co.in" target="_blank"
+                >info@pgnow.co.in</a
+              >
+            </li>
+          </ul>
+        </div>
+        <nav class="flex justify-end gap-5 fw-500">
+          <a href="#">Home</a>
+          <a href="#">Our Livings</a>
+    <div class="dropdown">
+  <input type="checkbox" id="toggle">
+
+  <label for="toggle" class="dropdown-btn">
+    Know More <i class="ri-arrow-down-s-line"></i>
+  </label>
+
+  <ul class="dropdown-menu">
+    <li>  About Us</li>
+    <li>  Food Menu </li>
+    <li>  Infrastructure </li>
+    <li> Contact Us</li>
+    
+  </ul>
+</div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero-left  ">
+        <h1 class="uppercase">
+          Comfortable & Affordable <br />
+        </h1>
+        <span>PG Rooms just for <span class="color-gold">you!</span></span>
+        <div class="flex img-wrapper">
+
+          <span ><img src="assets/arrow_bt.webp" width="100%" height="100%" alt=""></span>
+          <button><a href="#"> <img src="assets/view_btn.webp" alt=""></a></button>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img src="./assets/banner.webp" />
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+     <div class="d-flex about-wrapper">
+
+    
+    <section class="about">
+      <div class="about-left ">
+        <h2>Reliable, Affordable ,<span class="color-black"> and Packed</span><span class="color-gold"> with Amenities!</span></h2>
+        <p>
+          Looking for the perfect place to stay? We've been providing top-notch accommodation services since 2015! As one of the leading providers of Paying Guest (PG) services, we are committed to offering a comfortable, secure, and affordable living experience.
+        </p>
+      </div>
+
+      <div class="about-img  ">
+        <img
+          src="assets/pn27.jpg"
+        />
+      </div>
+
+      <div class="about-right ">
+       <h2>Enjoy a hassle-free stay with our premium facilities, including:</h2>
+ 
+  <div #swiperRef="" class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><i class="ri-car-line"></i>
+
+            <span>Parking</span></div>
+      <div class="swiper-slide"><i class="ri-flashlight-line"></i>
+
+            <span>Power Backup</span></div>
+      <div class="swiper-slide"><i class="ri-car-line"></i>
+
+            <span >Fully AC</span>
+
+</div>
+      <div class="swiper-slide"><i class="ri-wifi-line"></i>
+
+            <span>Free WiFi</span></div>
+      <div class="swiper-slide"><i class="ri-car-line"></i>
+
+            <span >Fully AC</span>
+
+</div>
+      <div class="swiper-slide"><i class="ri-wifi-line"></i>
+
+            <span>Free WiFi</span></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+     
+  </div>
+    
+ 
+        <p>Experience quality living at budget-friendly prices—because your comfort is our priority!</p>
+      </div>
+    </section>
+     </div>
+
+    <!--  ROOMS   -->
+    <section class="rooms">
+      <h2 class="color-blue">Unmatched Amenities for a <br><span class="color-gold"> Comfortable Stay!</span></h2>
+
+      <div class="room-scroll">
+       <div id="card-container"></div>
+      
+      </div>
+    </section>
+    <section>
+
+   
+<section class="hero-box">
+  <div class="hero-content">
+    <h2><div>PG Now</div> <div class="flex shrink-0" ><img src="assets/view_btn.webp"   width="120" alt=""></div></h2>
+    <h3>PG NOW! Finest Place to Live</h3>
+    <p>Paying less and getting the best is probably the best feeling. Joining our family and helping us to make your heart and pocket smile a little more</p>
+  </div>
+
+  <div class="hero-img">
+    <img src="assets/pn27.jpg" alt="">
+  </div>
+</section>
+<section class="main-layout">
+
+  <!-- LEFT SIDE -->
+  <div class="left">
+
+    <!-- Filters -->
+    <div class="filters">
+      <select id="genderFilter">
+  <option value="all">All Genders</option>
+  <option value="boys">Boys</option>
+  <option value="girls">Girls</option>
+</select>
+
+ 
+      <select><option>All Locations</option></select>
+      <select><option>Sort by Price</option></select>
+    </div>
+ 
+
+<div class="listing-card" data-type="boys">
+  <div class="card-img">
+        <img src="assets/pn73.jpg">
+        <span class="badge">Boys</span>
+        <div class="booking">Booking Open</div>
+      </div>
+
+      <div class="card-content">
+        <h3>PN001-Sunshine Homes</h3>
+        <p>Sector 126 Noida / Amity University</p>
+
+        <div class="beds">
+          <div>1 x Beds <br> ₹18,000/mo</div>
+          <div>2 x Beds <br> ₹11,500/mo</div>
+          <div>3 x Beds <br> ₹9,500/mo</div>
+        </div>
+
+        <div class="btns">
+          <button class="btn-blue ">Reserve Now</button>
+          <button class="btn-yellow">Schedule A Visit</button>
+        </div>
+      </div>
+</div>
+
+<div class="listing-card" data-type="girls">
+   
+      <div class="card-img">
+        <img src="assets/pn73.jpg">
+        <span class="badge">Girls</span>
+        <div class="booking">Booking Open</div>
+      </div>
+
+      <div class="card-content">
+        <h3>PN001-Sunshine Homes</h3>
+        <p>Sector 126 Noida / Amity University</p>
+
+        <div class="beds">
+          <div>1 x Beds <br> ₹18,000/mo</div>
+          <div>2 x Beds <br> ₹11,500/mo</div>
+          <div>3 x Beds <br> ₹9,500/mo</div>
+        </div>
+
+        <div class="btns">
+          <button class="btn-blue">Reserve Now</button>
+          <button class="btn-yellow">Schedule A Visit</button>
+        </div>
+      </div>
+    
+    </div>
+
+  </div>
+
+  <!-- RIGHT SIDE (MAP) -->
+  <div class="right">
+    <iframe
+      src="https://maps.google.com/maps?q=noida&t=&z=13&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+  </div>
+
+</section> </section>
+     
+  </body>
+ 
+  <script src="./script.js"></script>
+</html>
