@@ -957,6 +957,26 @@ color: white;
 .room-bg,.card-image{
   width: 100%;
 }
- 
-  
+ .top_head > *{
+  font-size:14px !important;
+ }
+ /* .top_head a  {
+  font-size:8px !important;
+ }*/
+ .top_head svg{
+  width: 14px !important;
+  height: 14px !important;
+ } 
+ h2{
+    font-size: 16px;
+ }
+ h3{
+  font-size: 14px;
+ }
+ p{
+  font-size: 10px;
+ }
+  .swiper{
+    width: 100% !important;
+  }
 }
