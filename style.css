@@ -234,7 +234,7 @@ font-weight: 400;
 /* ================= ABOUT ================= */
 .about {
   display: flex;
-  padding: 80px 5%;
+  padding: 20px 3%;
   gap: 40px;
   align-items: center;
 
@@ -422,7 +422,7 @@ font-weight: 400;
 
  
 .rooms {
-  padding: 80px 4%;
+  padding: 40px 4%;
 }
 .rooms h2{
 font-size: 32px;
@@ -616,7 +616,7 @@ width: calc(100% / 5 - 16px);
 
 /* ================= FEATURES GRID ================= */
 .features {
-  padding: 80px 8%;
+  padding: 40px 8%;
   background: linear-gradient(135deg, #e0f2fe, #eef2ff);
 }
 .features-scroll {
@@ -713,6 +713,12 @@ width: calc(100% / 5 - 16px);
   }
 }
 @media (max-width:600px) {
+  select{
+    font-size: 12px;
+  }
+  .logo{
+    width:80px;
+  }
   .card{
     width: 100%;
     flex-direction: row !important;
@@ -744,7 +750,7 @@ width: calc(100% / 5 - 16px);
   padding: 40px;
   background: #a8c7d6;
   border-radius: 30px;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .hero-content h2 {
@@ -767,7 +773,7 @@ width: calc(100% / 5 - 16px);
 .main-layout {
   display: flex;
   gap: 20px;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 /* LEFT */
@@ -915,6 +921,9 @@ color: white;
     height: 200px;
     border-radius: 10%;
   }
+  .about{
+    border-radius: 10px;
+  }
   .hero-content h2{
     font-size: 24px;
   }
@@ -982,4 +991,7 @@ color: white;
   .swiper{
     width: 100% !important;
   }
+}
+.our-living{
+  padding: 40px 4%;
 }
