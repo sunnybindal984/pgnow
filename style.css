@@ -438,7 +438,8 @@ font-weight: 600;
 
  .card {
     min-width: 280px;
-    max-width: 290px;
+    /* max-width: 290px; */
+    flex-grow: 1;
 width: calc(100% / 5 - 16px);
     border-radius: 5px;
     overflow: hidden;
@@ -894,11 +895,8 @@ color: white;
   cursor: pointer;
   transition: 0.3s ease;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-<<<<<<< HEAD
   line-height: 1.3;
   font-size: 14px;
-=======
->>>>>>> c015fa322130f91a48226169782538db35e415f6
 }
 .btn-blue:hover{
   scale: 1.05;
