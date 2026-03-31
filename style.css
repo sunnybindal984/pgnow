@@ -438,7 +438,7 @@ font-weight: 600;
 
  .card {
     min-width: 280px;
-    /* max-width: 290px; */
+    max-width: 300px;
     flex-grow: 1;
 width: calc(100% / 5 - 16px);
     border-radius: 5px;
