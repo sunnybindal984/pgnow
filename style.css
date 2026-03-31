@@ -51,13 +51,14 @@ body {
   /* backdrop-filter: blur(12px); */
   background-color: white;
   position: sticky;
+  line-height: 1.3;
   top: 0;
   z-index: 100;
   padding: 10px 8%;
 }
 
 .logo {
-  width: 150px;
+  width: 140px;
 }
 
 nav a {
@@ -100,6 +101,7 @@ nav a {
 .hero-left{
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   flex-direction: column;
 }
@@ -271,6 +273,7 @@ font-weight: 400;
 .about-right {
   display: flex;
   flex-direction: column;
+  gap: 8px;
   justify-content: center;
 }
 .mySwiper {
@@ -438,9 +441,9 @@ font-weight: 600;
 
  .card {
     min-width: 280px;
-    max-width: 300px;
+    max-width: 330px;
     flex-grow: 1;
-width: calc(100% / 5 - 16px);
+width: calc(100% / 4 - 15px);
     border-radius: 5px;
     overflow: hidden;
     background: #fff;
@@ -590,8 +593,10 @@ width: calc(100% / 5 - 16px);
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 35px;
     gap: 5px;
-    font-size: 10.5px;
+    line-height: 1.3;
+    font-size: 12px;
     color: #444;
     border-radius: 5px;
     background: #eeeeee;
@@ -611,7 +616,7 @@ width: calc(100% / 5 - 16px);
   .amenity span {
     line-height: 1.3;
     color: #444444;
-    font-weight: 500;
+    font-weight: 400;
   }
 
 /* ================= FEATURES GRID ================= */
@@ -749,8 +754,13 @@ width: calc(100% / 5 - 16px);
   align-items: center;
   padding: 40px;
   background: #a8c7d6;
-  border-radius: 30px;
+  border-radius: 20px;
   /* margin: 20px; */
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .hero-content h2 {
@@ -764,11 +774,12 @@ width: calc(100% / 5 - 16px);
   border-radius: 5px;
 }
 
-.hero-img img {
+.hero-img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
+  overflow: hidden;
 }
 .main-layout {
   display: flex;
@@ -850,9 +861,15 @@ color: white;
  
 .card-content {
   padding: 20px;
+
   flex: 1;
 }
-
+.card-content h3 {
+  /* font-size: 20px; */
+  /* margin-bottom: 10px; */
+  font-weight: 500;
+  
+}
  
 .beds {
   display: flex;
@@ -914,16 +931,27 @@ color: white;
 @media (max-width:600px) {
   .hero-box{
     flex-direction: column;
+   padding: 30px;
     gap: 20px;
   }
-  .hero-img img{
+  .hero-img{
     width: 200px;
     height: 200px;
     border-radius: 10%;
+    margin: auto;
   }
   .about{
     border-radius: 10px;
   }
+  .about p{
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .about h2,.rooms h2,.hero-left h1, .hero-left span{
+    font-size: 20px;
+    line-height: 1.3;
+  }
+   
   .hero-content h2{
     font-size: 24px;
   }
@@ -960,10 +988,10 @@ color: white;
   }
  
   .card .booking-bar {
-    position: static; /* remove absolute */
+    position: static; 
     right: 10px;
     bottom: 10px;
-    border-radius: 5px; /* optional reset */
+  border-radius: 0 0 0px 5px;
   
 }
 .room-bg,.card-image{
